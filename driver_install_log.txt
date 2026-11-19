@@ -1,0 +1,44 @@
+============================================================ 
+  Realtek Driver Install via pnputil and Windows Update 
+============================================================ 
+ 
+[1] Current driver... 
+
+
+DeviceName         : Realtek PCIe GbE Family Controller
+DriverVersion      : 1.0.0.14
+DriverDate         : 10/8/2017 3:00:00 AM
+DriverProviderName : Microsoft
+
+
+
+ 
+[2] Scanning devices for hardware changes... 
+Microsoft PnP Utility
+
+Scanning for device hardware changes.
+Scan complete.
+
+ 
+[3] Trying Windows Update driver search (ServerSelection=2 = Windows Update)... 
+Searching Windows Update for drivers...
+Found 6 updates
+  - Realtek - LAN - Realtek PCIe GBE Family Controller
+  - Advanced Micro Devices, Inc - System - 8/30/2017 12:00:00 AM - 5.12.0.38
+  - Advanced Micro Devices, Inc. - System - 8/29/2017 12:00:00 AM - 2.0.1.0
+  - Advanced Micro Devices Inc. - SecurityDevices - 5.17.0.0
+  - NVIDIA Display Driver Update (32.0.16.1088)
+  - Microsoft Corporation AudioProcessingObject Driver Update (1.0.4.55794)
+Found 1 Realtek updates
+Downloading: Realtek - LAN - Realtek PCIe GBE Family Controller
+
+HResult ResultCode
+------- ----------
+      0          2
+Installing: Realtek - LAN - Realtek PCIe GBE Family Controller
+ResultCode: 2
+RebootRequired: False
+
+
+ 
+[4] Also trying Device Manager update (Search Windows Update)... 

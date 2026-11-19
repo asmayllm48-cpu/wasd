@@ -1,0 +1,80 @@
+============================================================ 
+  Network Fix Script 
+============================================================ 
+ 
+[1/5] Changing DNS to Cloudflare... 
+
+
+[OK] DNS changed 
+ 
+[2/5] Stopping ProtonVPN Service... 
+
+SERVICE_NAME: ProtonVPN Service 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 3  STOP_PENDING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+ 
+[3/5] Stopping ProtonVPN WireGuard... 
+[SC] ControlService FAILED 1062:
+
+The service has not been started.
+
+ 
+[4/5] Disabling auto-start... 
+[SC] ChangeServiceConfig SUCCESS
+[SC] ChangeServiceConfig SUCCESS
+[OK] Auto-start disabled 
+ 
+[5/5] Killing ProtonVPN processes... 
+SUCCESS: The process "ProtonVPN.Client.exe" with PID 15256 has been terminated.
+ERROR: The process "ProtonVPNService.exe" with PID 9924 could not be terminated.
+Reason: The operation attempted is not supported.
+ERROR: The process "ProtonVPN.NrptWatchdog.exe" not found.
+ 
+[Extra] Flushing DNS... 
+
+Windows IP Configuration
+
+Successfully flushed the DNS Resolver Cache.
+ 
+============================================================ 
+  Verification 
+============================================================ 
+ 
+--- DNS Servers --- 
+
+Configuration for interface "Ethernet"
+    Statically Configured DNS Servers:    1.1.1.1
+                                          1.0.0.1
+    Register with which suffix:           Primary only
+
+ 
+--- ProtonVPN Services --- 
+
+SERVICE_NAME: ProtonVPN Service 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+ 
+
+SERVICE_NAME: ProtonVPN WireGuard 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+ 
+--- ProtonVPN Processes --- 
+INFO: No tasks are running which match the specified criteria.
+ 
+============================================================ 
+  Done. 
+============================================================ 

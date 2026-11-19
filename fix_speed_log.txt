@@ -1,0 +1,42 @@
+============================================================ 
+  Speed and Duplex Fix 
+============================================================ 
+ 
+[1] Current Speed and Duplex setting... 
+
+
+DisplayName        : Speed & Duplex
+DisplayValue       : Auto Negotiation
+ValidDisplayValues : {Auto Negotiation, 10 Mbps Half Duplex, 10 Mbps Full Duplex, 100 Mbps Half Duplex...}
+
+
+
+ 
+[2] Available values... 
+Auto Negotiation
+10 Mbps Half Duplex
+10 Mbps Full Duplex
+100 Mbps Half Duplex
+100 Mbps Full Duplex
+1.0 Gbps Full Duplex
+ 
+[3] Setting to 1.0 Gbps Full Duplex... 
+ 
+[4] If above failed, trying Registry approach... 
+Set SpeedDuplex=6 in 0001
+ 
+[5] Verifying new setting... 
+
+
+DisplayName  : Speed & Duplex
+DisplayValue : 1.0 Gbps Full Duplex
+
+
+
+ 
+[6] Current Link Speed... 
+100 Mbps
+ 
+============================================================ 
+  Done. You may need to replug the cable or reboot. 
+============================================================ 

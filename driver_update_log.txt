@@ -1,0 +1,293 @@
+============================================================ 
+  Driver Update Attempt 
+============================================================ 
+ 
+[1] Current driver info... 
+
+
+DeviceName         : Realtek PCIe GbE Family Controller
+DriverVersion      : 1.0.0.14
+DriverDate         : 10/8/2017 3:00:00 AM
+DriverProviderName : Microsoft
+InfName            : rtcx21x64.inf
+
+
+
+ 
+[2] Scanning for updated drivers via pnputil... 
+Microsoft PnP Utility
+
+Scanning for device hardware changes.
+Scan complete.
+
+ 
+[3] Searching Windows Update for Realtek driver... 
+Exception from HRESULT: 0x8024802A
+At line:1 char:261
++ ... ection = 3; $SearchResult = $UpdateSearcher.Search('IsInstalled=0 AND ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], COMException
+    + FullyQualifiedErrorId : System.Runtime.InteropServices.COMException
+ 
+Found 0 driver updates
+ 
+[4] Listing all installed Realtek drivers... 
+Microsoft PnP Utility
+
+Published Name:     oem6.inf
+Original Name:      amdgpio2.inf
+Provider Name:      Advanced Micro Devices, Inc
+Class Name:         System
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     09/29/2019 2.2.0.121
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Universal
+WHCP Version:       Unknown
+
+Published Name:     oem0.inf
+Original Name:      amdgpio3.inf
+Provider Name:      Advanced Micro Devices, Inc.
+Class Name:         System
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     03/14/2016 2.0.1.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Legacy
+WHCP Version:       Unknown
+
+Published Name:     oem5.inf
+Original Name:      amdpcidev.inf
+Provider Name:      Advanced Micro Devices
+Class Name:         System
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     05/18/2021 1.0.0.83
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Universal
+WHCP Version:       Unknown
+
+Published Name:     oem4.inf
+Original Name:      nvppc.inf
+Provider Name:      NVIDIA
+Class Name:         USB
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     08/14/2024 1.52.831.832
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem1.inf
+Original Name:      smbusamd.inf
+Provider Name:      Advanced Micro Devices, Inc
+Class Name:         System
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     01/18/2015 5.12.0.31
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Legacy
+WHCP Version:       Unknown
+
+Published Name:     oem13.inf
+Original Name:      ssudbus.inf
+Provider Name:      SAMSUNG Electronics Co., Ltd. 
+Class Name:         USB
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     04/08/2026 2.21.4.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem20.inf
+Original Name:      ss_conn_usb_driver2.inf
+Provider Name:      SAMSUNG Electronics Co., Ltd.
+Class Name:         USB
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     04/08/2026 2.21.4.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem7.inf
+Original Name:      android_driver_18d1_2d00.inf
+Provider Name:      Curious Company SAS
+Class Name:         AndroidUsbDeviceClass
+Class GUID:         {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver Version:     04/20/2023 1.0.0.9
+Signer Name:        CuriousCompany
+Attributes:         Legacy
+WHCP Version:       Unknown
+
+Published Name:     oem8.inf
+Original Name:      android_driver_18d1_2d01.inf
+Provider Name:      Curious Company SAS
+Class Name:         AndroidUsbDeviceClass
+Class GUID:         {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver Version:     04/20/2023 1.0.0.9
+Signer Name:        CuriousCompany
+Attributes:         Legacy
+WHCP Version:       Unknown
+
+Published Name:     oem19.inf
+Original Name:      netrtwlanu.inf
+Provider Name:      Realtek Semiconductor Corp.
+Class Name:         Net
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     01/09/2026 1030.52.1216.2025
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Universal
+WHCP Version:       Unknown
+
+Published Name:     oem17.inf
+Original Name:      netrtwlanu.inf
+Provider Name:      Realtek Semiconductor Corp.
+Class Name:         Net
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     07/31/2025 1030.52.731.2025
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem3.inf
+Original Name:      nvhda.inf
+Provider Name:      NVIDIA Corporation
+Class Name:         MEDIA
+Class GUID:         {4d36e96c-e325-11ce-bfc1-08002be10318}
+Driver Version:     08/14/2024 1.4.0.1
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem2.inf
+Original Name:      nvmd.inf
+Provider Name:      NVIDIA
+Class Name:         Display
+Class GUID:         {4d36e968-e325-11ce-bfc1-08002be10318}
+Driver Version:     08/14/2024 32.0.15.6094
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem18.inf
+Original Name:      oemvista.inf
+Provider Name:      TAP-Windows Provider V9
+Class Name:         Net
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     09/27/2019 9.24.2.601
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Universal
+                    Attested
+WHCP Version:       Unknown
+
+Published Name:     oem24.inf
+Original Name:      oemvista.inf
+Provider Name:      TAP-ProtonVPN Windows Provider V9
+Class Name:         Net
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/08/2020 9.24.6.601
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Universal
+                    Attested
+WHCP Version:       Unknown
+
+Published Name:     oem9.inf
+Original Name:      prnms009.inf
+Provider Name:      Microsoft
+Class Name:         Printer
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Class Version:      4.0
+Driver Version:     06/21/2006 10.0.26100.4484
+Signer Name:        Microsoft Windows
+Attributes:         Legacy
+WHCP Version:       Unknown
+
+Published Name:     oem12.inf
+Original Name:      ssudadb.inf
+Provider Name:      SAMSUNG Electronics Co., Ltd. 
+Class Name:         AndroidUsbDeviceClass
+Class GUID:         {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver Version:     09/26/2022 2.19.1.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Legacy
+WHCP Version:       Unknown
+
+Published Name:     oem15.inf
+Original Name:      ssudadb.inf
+Provider Name:      SAMSUNG Electronics Co., Ltd. 
+Class Name:         AndroidUsbDeviceClass
+Class GUID:         {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver Version:     09/23/2024 2.21.0.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem22.inf
+Original Name:      ssudadb.inf
+Provider Name:      SAMSUNG Electronics Co., Ltd. 
+Class Name:         AndroidUsbDeviceClass
+Class GUID:         {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver Version:     04/08/2026 2.21.4.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem10.inf
+Original Name:      ssudmdm.inf
+Provider Name:      SAMSUNG Electronics Co., Ltd. 
+Class Name:         Modem
+Class GUID:         {4d36e96d-e325-11ce-bfc1-08002be10318}
+Driver Version:     04/08/2026 2.21.4.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem21.inf
+Original Name:      ssudrnds.inf
+Provider Name:      SAMSUNG Electronics Co., Ltd. 
+Class Name:         Net
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     04/08/2026 2.21.4.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Declarative
+WHCP Version:       Unknown
+
+Published Name:     oem23.inf
+Original Name:      voiceclarityep_audio_component.inf
+Provider Name:      Microsoft Corporation
+Class Name:         AudioProcessingObject
+Class GUID:         {5989fce8-9cd0-467d-8a6a-5419e31529d4}
+Driver Version:     05/04/2026 1.0.3.56670
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Universal
+WHCP Version:       Unknown
+
+Published Name:     oem16.inf
+Original Name:      voiceclarityep_audio_component.inf
+Provider Name:      Microsoft Corporation
+Class Name:         AudioProcessingObject
+Class GUID:         {5989fce8-9cd0-467d-8a6a-5419e31529d4}
+Driver Version:     06/16/2026 1.0.4.7057
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Universal
+WHCP Version:       Unknown
+
+Published Name:     oem14.inf
+Original Name:      wintun.inf
+Provider Name:      WireGuard LLC
+Class Name:         Net
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/13/2021 0.14.0.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Universal
+WHCP Version:       Unknown
+
+Published Name:     oem11.inf
+Original Name:      wireguard.inf
+Provider Name:      WireGuard LLC
+Class Name:         Net
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/12/2021 0.10.0.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+Attributes:         Universal
+WHCP Version:       Unknown
+
+ 
+============================================================ 
+  Done. 
+============================================================ 

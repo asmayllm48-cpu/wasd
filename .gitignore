@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+build-*/
+bin/
+tmp_dl/
+*.user
+*.obj
+*.pdb
+*.ilk
+
+# Training data & model artifacts (1.2 GB — keep local)
+datasets/
+analysis/
+
+# Stale vendored copy not referenced by the build
+third_party/onnxruntime-old-cpu/
+
+# Editor/OS noise
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,33 @@
+============================================================ 
+  Revert Speed and Duplex to Auto Negotiation 
+============================================================ 
+ 
+[1] Current setting... 
+
+
+DisplayName  : Speed & Duplex
+DisplayValue : 1.0 Gbps Full Duplex
+
+
+
+ 
+[2] Reverting to Auto Negotiation... 
+ 
+[3] Also reverting Registry SpeedDuplex to 0 (Auto)... 
+Set SpeedDuplex=0 (Auto) in 0001
+ 
+[4] Verifying... 
+
+
+DisplayName  : Speed & Duplex
+DisplayValue : Auto Negotiation
+
+
+
+ 
+[5] Current Link Speed... 
+0 bps
+ 
+============================================================ 
+  Done. Replug cable to apply. 
+============================================================ 
